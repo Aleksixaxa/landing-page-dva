@@ -41,19 +41,19 @@ function setBgGreet () {
 
     if(hour < 12) {
         //morning
-        document.body.style.backgroundImage = "url('../imgs/morning.png')"
+        document.body.style.backgroundImage = "url('../imgs/1 (1).png')"
         greeting.textContent = 'Good Morning'
     }else if (hour < 18) {
         //afternoon
-        document.body.style.backgroundImage = "url('../imgs/dva.jpg')"
+        document.body.style.backgroundImage = "url('../imgs/1 (2).jpg')"
         greeting.textContent = 'Good Afternoon'
         document.body.style.color = 'white'
     }else if (hour < 22) {
         //evening/night
-        document.body.style.backgroundImage = "url('../imgs/night.png')"
+        document.body.style.backgroundImage = "url('../imgs/1 (3).png')"
         greeting.textContent = 'Good Evening'
     } else if (hour < 6) {
-        document.body.style.backgroundImage = "url('../imgs/night.png')"
+        document.body.style.backgroundImage = "url('../imgs/1 (4).png')"
         greeting.textContent = 'Good Night'
     }
 
